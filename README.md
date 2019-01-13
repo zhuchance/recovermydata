@@ -1,2 +1,4 @@
-# recovermydata
-这个case是帮助程序员朋友们数据恢复的.This case is to help programmers to recover data.
+# 恢复误删除的数据 recovermydata 
+这个项目是帮助程序员朋友们数据恢复的.This case is to help programmers to recover data.
+*最近有很多朋友问到数据误删除怎么办*`
+说来有缘第一个githun上的fork的项目就是WinHex，熟悉数据恢复的朋友都知道这是一款最强大的数据恢复软件没有之一，庆祝一下微软开放了无限的私人仓库，我决定把数据恢复的一些经验和技巧开源出来与大家分享，当然这中分享是面对有一定技术能力的同行(程序员)。如果实在是搞不定发邮件给我，我很乐意帮忙。
