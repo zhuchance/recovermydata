@@ -17,7 +17,7 @@
   
 #### winhex是一个能直接查看物理磁盘数据的工具。
     举个栗子：修复一个格式化的FAT32格式的u盘
-    1.人为破坏存储模拟格式化(这里使用winehe把mbr填0，这是一种比格式化来的更凶的操作，当年chi病毒就是这么搞的哦)：![image](https://github.com/zhuchance/recovermydata/blob/master/images/format.png)
+    1.人为破坏存储模拟格式化(这里使用winehe把mbr填0，这是一种比格式化来的更凶的操作，当年CIH病毒就是这么搞的哦)：![image](https://github.com/zhuchance/recovermydata/blob/master/images/format.png)
     2.根据fat表找到对应扇区![image](https://github.com/zhuchance/recovermydata/blob/master/images/winhex1.png)
     3.根据对应数据修复mbr数据![image](https://github.com/zhuchance/recovermydata/blob/master/images/winhex1.png)
     4.数据修复，注意正常的数据恢复取证流程是不会对原数据盘做任何写操作，所有的操作都是基于物理镜像来做的。winhex可以很方便的做物理镜像，Linux或者mac下面可以直接使用dd命令做物理字节级别拷贝
